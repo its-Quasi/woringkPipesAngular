@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./number-pipes.component.css']
 })
 export class NumberPipesComponent {
-
+  public totalSells = 2390889.3432
+  public percent = 0.54
 }

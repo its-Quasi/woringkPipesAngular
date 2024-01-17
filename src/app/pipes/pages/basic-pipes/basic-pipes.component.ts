@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./basic-pipes.component.css']
 })
 export class BasicPipesComponent {
-
+  public msg = 'Proof Mesagge'
+  public customDate = new Date()
 }

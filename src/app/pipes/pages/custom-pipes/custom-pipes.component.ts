@@ -9,6 +9,7 @@ import { Color, Hero } from '../../interfaces/hero.interface';
 })
 export class CustomPipesComponent {
   isUpperCase = false
+  orderBy : keyof Hero = 'color'
   public heroes: Hero[] = [
     {
       name: 'Superman',
@@ -42,7 +43,7 @@ export class CustomPipesComponent {
     this.isUpperCase = !this.isUpperCase;
   }
 
-  // changeOrder( value: keyof Hero ){
-  //   this.orderBy = value;
-  // }
+  changeOrder( value: keyof Hero ){
+    this.orderBy = value;
+  }
 }

@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { CustomPipesComponent } from './pages/custom-pipes/custom-pipes.component';
 import { ToggleCasePipe } from './pipes/toggle-case.pipe';
 import { CanFlyPipe } from './pipes/canFly.pipe';
+import { SortByPipe } from './pipes/sortBy.pipe';
 
 
 
@@ -19,7 +20,8 @@ import { CanFlyPipe } from './pipes/canFly.pipe';
     UncommonPipesComponent,
     CustomPipesComponent,
     ToggleCasePipe,
-    CanFlyPipe
+    CanFlyPipe,
+    SortByPipe
   ],
   imports: [
     CommonModule,
